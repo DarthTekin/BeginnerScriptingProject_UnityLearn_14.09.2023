@@ -1101,7 +1101,7 @@ MonoBehaviour:
   horizontalValueDisplayText: {fileID: 1736393524}
   verticalValueDisplayText: {fileID: 414947854}
   hRange: 9
-  vRange: 5
+  vRange: 6
 --- !u!135 &2128474184
 SphereCollider:
   m_ObjectHideFlags: 0
