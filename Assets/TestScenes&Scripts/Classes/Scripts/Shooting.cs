@@ -28,6 +28,7 @@ public class Shooting : MonoBehaviour
             Rigidbody bulletInstance = Instantiate(bulletPrefab, firePosition.position, firePosition.rotation) as Rigidbody;
             bulletInstance.AddForce(firePosition.forward * bulletSpeed);
             inventory.myStuff.bullets--;
+            Destroy(bulletInstance.gameObject, 2f);
         }
     }
 }

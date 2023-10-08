@@ -36,8 +36,7 @@ public class Inventory : MonoBehaviour
     // Creating an Instance (an Object) of the Stuff class
     public Stuff myStuff = new Stuff(50, 5, 5);
 
-    public Stuff myOtherStuff = new Stuff(50, 1.5f);
-        
+    public Stuff myOtherStuff = new Stuff(50, 1.5f);        
 
     // Start is called before the first frame update
     void Start()
