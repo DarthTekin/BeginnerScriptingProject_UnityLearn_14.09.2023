@@ -374,7 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rocketPrefab: {fileID: -8457404154018861494, guid: 8a95396915c0320418b3c28c66cd948b, type: 3}
   barrelEnd: {fileID: 312622204}
-  rocketSpeed: 10
+  rocketSpeed: 100
 --- !u!65 &1399062259
 BoxCollider:
   m_ObjectHideFlags: 0
