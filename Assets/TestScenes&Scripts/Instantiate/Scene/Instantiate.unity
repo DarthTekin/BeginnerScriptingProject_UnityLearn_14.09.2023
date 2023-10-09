@@ -238,14 +238,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312622203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 7, y: 1.5, z: 5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &735175157
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rocketPrefab: {fileID: -8457404154018861494, guid: 8a95396915c0320418b3c28c66cd948b, type: 3}
   barrelEnd: {fileID: 312622204}
-  rocketSpeed: 100
+  rocketSpeed: 500
 --- !u!65 &1399062259
 BoxCollider:
   m_ObjectHideFlags: 0

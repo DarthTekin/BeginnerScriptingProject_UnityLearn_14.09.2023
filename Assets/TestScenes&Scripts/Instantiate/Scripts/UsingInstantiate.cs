@@ -18,7 +18,7 @@ public class UsingInstantiate : MonoBehaviour
             {
                 Rigidbody rocketInstance;
                 rocketInstance = Instantiate(rocketPrefab, barrelEnd.position, barrelEnd.rotation) as Rigidbody;
-                rocketInstance.AddForce(barrelEnd.forward * rocketSpeed);
+                rocketInstance.AddForce(rocketPrefab.gameObject.transform.forward * rocketSpeed);
             }
         }
     }
